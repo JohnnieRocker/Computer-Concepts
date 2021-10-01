@@ -1,0 +1,13 @@
+NAND 5 net9 P1 P2
+NOR 2 net7 net9 net8
+INV 5 net6 net7
+NOR 2 net8 P2 P3
+NAND 4 net4 net9 net8
+NAND 2 P9 net6 net5
+INV 3 net5 P3
+NOR 1 P10 net4 net5
+I P1
+I P2
+I P3
+O P9
+O P10

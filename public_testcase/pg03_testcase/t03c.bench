@@ -1,0 +1,19 @@
+NAND 1 s1 Q1 Q2
+NOR 3 s3 Q2 Q3
+NOR 0 s4 Q1 Q4
+NAND 9 s5 Q4 Q5
+INV 5 s2 s1
+NAND 5 s6 s3 s4
+NOR 1 s8 s4 s5
+NOR 2 s7 s2 s3
+INV 3 s9 s5
+NOR 5 s10 s7 s6
+NAND 4 s12 s6 s8
+NOR 5 s11 s12 s9
+NAND 7 Q12 s10 s11
+I Q1
+I Q2
+I Q3
+I Q4
+I Q5
+O Q12

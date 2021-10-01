@@ -1,0 +1,14 @@
+NOR 1 n60 G2 G5
+NAND 3 net14 G3 G4
+NAND 0 net17 G1 G3
+INV 2 net25 net14
+NAND 1 net18 net14 G2
+NOR 0 G17 n60 net25
+NAND 2 G16 net17 net18
+I G1
+I G2
+I G3
+I G4
+I G5
+O G16
+O G17

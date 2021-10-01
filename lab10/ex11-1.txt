@@ -1,0 +1,13 @@
+Hey!    Nice   to  meet    you.
+I am    Barry.
+Good, to   see  you.
+#
+# Text analysis result:
+# word: 12
+# comma: 1
+# period: 3
+# exclamation mark: 1
+#
+Hey Nice to meet you
+I am Barry
+Good to see you

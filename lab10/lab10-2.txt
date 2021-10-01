@@ -1,0 +1,6 @@
+When iour program takes input from a file,
+it is said to be reading from the file; when
+your program sends output to a file, it is said
+to be writing to the file.
+
+new words
